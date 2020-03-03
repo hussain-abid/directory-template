@@ -1,0 +1,50 @@
+@mixin transform($settings) {
+
+  -webkit-transform: $settings;
+  -moz-transform: $settings;
+  -ms-transform: $settings;
+  -o-transform: $settings;
+  transform: $settings;
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin transition($settings) {
+  -webkit-transition: $settings;
+  -moz-transition: $settings;
+  -ms-transition: $settings;
+  -o-transition: $settings;
+  transition: $settings;
+  //@include transform(translateZ(0));
+  //@include translate3d('0,0,0');
+}
+
+@mixin box-shadow($settings) {
+
+  -webkit-box-shadow: $settings;
+  -moz-box-shadow: $settings;
+  -ms-box-shadow: $settings;
+  -o-box-shadow: $settings;
+  box-shadow: $settings;
+}
+
+@mixin animation($settings) {
+  webkit-animation: $settings;
+  -moz-animation: $settings;
+  -ms-animation: $settings;
+  -o-animation: $settings;
+  animation: $settings;
+}
+
+@mixin translate3d($settings) {
+  webkit-translate3d: $settings;
+  -moz-translate3d: $settings;
+  -ms-translate3d: $settings;
+  -o-translate3d: $settings;
+  translate3d: $settings;
+}
