@@ -6,7 +6,7 @@ Hey Everyone, this the directory template based on HTML,SCSS and Bootstrap for F
 Enjoy Give a star if you like it :)
 
 
-[logo]: https://github.com/hussainabidbest/directory/raw/master/screenshot.png "Screenshot"
+[logo]: https://github.com/hussainabidbest/directory-template/raw/master/screenshot.png "Screenshot"
 
 
 
